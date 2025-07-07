@@ -1,0 +1,72 @@
+# Xcode
+#
+# gitignore contributors: remember to keep this file simple and straightforward
+# See https://github.com/github/gitignore/blob/main/Global/Xcode.gitignore
+# and https://github.com/github/gitignore/blob/main/Swift.gitignore
+# if you want to play with more advanced examples.
+
+## User-specific files
+*.DS_Store
+.com.apple.mobileicons.iconset
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.app
+*.dSYM/
+*.xcarchive
+
+## Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+#
+# Add this line if you want to avoid checking in resolved dependencies.
+# *.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+.build/
+
+## Carthage
+#
+# Add this line if you use Carthage.
+# See https://github.com/Carthage/Carthage#if-youre-building-for-ios-tvos-or-watchos
+#
+# Carthage/Build
+# Carthage/Checkouts
+
+## CocoaPods
+#
+# Add this line if you use CocoaPods.
+#
+# Pods/
+#
+# We recommend against adding the Podfile.lock to your .gitignore.
+# See https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-my-pods-directory-into-source-control
+
+## Fastlane
+#
+# It is recommended to not store the screenshots in the git repo.
+# Instead, use fastlane to re-generate the screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+## Playgrounds
+#
+# Add this line if you want to avoid checking in Playground data
+#
+# timeline.xctimeline
+# playground.xcworkspace
+
+# User-specific files
+*.xcuserdatad
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+*.xcscheme
+*.xctestrun
+*.xcresult
+*.xcworkspace
